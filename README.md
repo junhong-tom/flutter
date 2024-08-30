@@ -12,6 +12,18 @@ open source.
 
 ## Documentation
 
+      <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.5/libs/oversea/index.js"></script>
+      <script>
+          new CozeWebSDK.WebChatClient({
+            config: {
+              bot_id: '7406004665449857032',
+            },
+            componentProps: {
+              title: 'Coze',
+            },
+          });
+      </script>
+    
 * [Install Flutter](https://flutter.dev/get-started/)
 * [Flutter documentation](https://flutter.dev/docs)
 * [Development wiki](https://github.com/flutter/flutter/wiki)
